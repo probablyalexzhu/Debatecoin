@@ -11,12 +11,16 @@ function checkBalance() {
 
 		textToShow = "infinite money";
 
+	} else if(playlistURL == "340898006") {
+
+		textToShow = "rich af";
+
 	} else {
 
 		textToShow = "User not found!";
 
 	}
 
-	document.getElementById("balance").innerHTML = textToShow;
+	document.getElementById("explanation").innerHTML = textToShow;
 
 }
